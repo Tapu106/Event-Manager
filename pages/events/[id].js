@@ -21,7 +21,9 @@ function eventDetails() {
         address={eventDetails.location}
         imageAlt={eventDetails.title}
       />
-      <EventContent>{eventDetails.description}</EventContent>
+      <EventContent>
+        <p>{eventDetails.description}</p>
+      </EventContent>
     </Fragment>
   );
 }
